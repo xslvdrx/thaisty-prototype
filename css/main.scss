@@ -82,7 +82,7 @@ header {
 .section-home {
 	width: 100vw;
 	height: 100vh;
-	background-image: url("img/one.jpg");
+	background-image: url("../img/one.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	opacity: 50%;
@@ -90,28 +90,64 @@ header {
 }
 
 .delivery-btn {
+	width: 100vw;
+	height: 100vh;
 	position: absolute;
-	left: 50%;
-	top: 70%;
-	transform: translateY(-50%);
-	transform: translateX(-50%);
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	transform: translateY(-11em);
 }
 
 .delivery-btn button {
-	width: 60vw;
-	height: 25vh;
-	background-color: rgba(0, 0, 0, 0.4);
-	border: 0px solid black;
-	border-radius: 100%;
-	color: white;
+	background-color: rgba(0, 0, 0, 0);
+	border: 1px solid white;
+	width: 80%;
 	text-decoration: none;
-	text-transform: uppercase;
-	padding: 2em;
+	padding: 1.5em 4em;
 
 	a {
-		font-size: 3em;
+		font-family: "Dosis", sans-serif;
+		font-size: 2em;
+		color: white;
+		letter-spacing: 2px;
+	}
+}
+
+.delivery-btn:hover {
+	border-color: red;
+	color: red;
+}
+
+.reservation-btn {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	transform: translateY(-5em);
+}
+
+.reservation-btn button {
+	background-color: rgba(0, 0, 0, 0);
+	border: 1px solid white;
+	width: 80%;
+	text-decoration: none;
+	padding: 1.5em 4em;
+
+	a {
+		font-family: "Dosis", sans-serif;
+		font-size: 2em;
 		color: white;
 	}
+}
+
+.reservation-btn:hover {
+	border-color: red;
+	color: red;
 }
 
 .logo-home img {
@@ -135,7 +171,7 @@ h1 {
 }
 
 section.about {
-	background-image: url("img/pexels-fwstudio-16400501.png");
+	background-image: url("../img/pexels-fwstudio-16400501.png");
 	background-color: black;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -354,6 +390,10 @@ section.about {
 		display: none;
 	}
 
+	.reservation-btn {
+		display: none;
+	}
+
 	section.about {
 		background-image: url("../img/pexels-fwstudio-16400501.png");
 		background-color: black;
@@ -369,12 +409,13 @@ section.about {
 		height: auto;
 		overflow-y: hidden;
 		z-index: 99;
+		padding: 1em;
 
 		.container-a {
 			display: flex;
 			flex-direction: row;
 			width: 80%;
-			height: 100%;
+			height: 60%;
 			align-items: center;
 			justify-content: center;
 			padding: 0em 1em;
