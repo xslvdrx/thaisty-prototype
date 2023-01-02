@@ -74,8 +74,6 @@ header svg {
   width: 100vw;
   height: 100vh;
   background-image: url("img/one.jpg");
-  background-attachment: fixed;
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 50%;
@@ -117,13 +115,6 @@ header svg {
 
 .logo-home-desktop {
   display: none;
-}
-
-h1 {
-  margin: 0;
-  padding: 0;
-  font-size: 2em;
-  text-align: center;
 }
 
 section.about {
@@ -177,6 +168,11 @@ section.about .container-a .desc {
   height: auto;
   text-shadow: 2px 2px black;
   padding-bottom: 1em;
+}
+section.about .container-a .desc h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
 }
 section.about .container-b {
   margin: 0;
