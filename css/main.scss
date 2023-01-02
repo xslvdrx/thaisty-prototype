@@ -275,10 +275,14 @@ section.about {
 
 			p {
 				margin: 0;
-				padding: 1em 0;
+				padding: 1em 0 2em 0;
 			}
 		}
 	}
+}
+
+@media (orientation: landscape) {
+	//WPISAĆ WYŚWIETLANIE POZIOME//
 }
 
 @media only screen and (min-width: 680px) {

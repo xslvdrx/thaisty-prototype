@@ -259,7 +259,7 @@ section.about .container-b .desc {
 }
 section.about .container-b .desc p {
   margin: 0;
-  padding: 1em 0;
+  padding: 1em 0 2em 0;
 }
 
 @media only screen and (min-width: 680px) {
