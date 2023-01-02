@@ -82,7 +82,7 @@ header {
 .section-home {
 	width: 100vw;
 	height: 100vh;
-	background-image: url("../img/one.jpg");
+	background-image: url("img/one.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	opacity: 50%;
@@ -97,7 +97,7 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
-	transform: translateY(-11em);
+	transform: translateY(-16em);
 }
 
 .delivery-btn button {
@@ -115,11 +115,6 @@ header {
 	}
 }
 
-.delivery-btn:hover {
-	border-color: red;
-	color: red;
-}
-
 .reservation-btn {
 	width: 100vw;
 	height: 100vh;
@@ -128,7 +123,7 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
-	transform: translateY(-5em);
+	transform: translateY(-10em);
 }
 
 .reservation-btn button {
@@ -143,11 +138,6 @@ header {
 		font-size: 2em;
 		color: white;
 	}
-}
-
-.reservation-btn:hover {
-	border-color: red;
-	color: red;
 }
 
 .logo-home img {
@@ -171,7 +161,7 @@ h1 {
 }
 
 section.about {
-	background-image: url("../img/pexels-fwstudio-16400501.png");
+	background-image: url("img/pexels-fwstudio-16400501.png");
 	background-color: black;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -353,7 +343,7 @@ section.about {
 	.section-home {
 		width: 100vw;
 		height: 100vh;
-		background-image: url("../img/one.jpg");
+		background-image: url("img/one.jpg");
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -395,7 +385,7 @@ section.about {
 	}
 
 	section.about {
-		background-image: url("../img/pexels-fwstudio-16400501.png");
+		background-image: url("img/pexels-fwstudio-16400501.png");
 		background-color: black;
 		background-attachment: fixed;
 		background-position: center;
