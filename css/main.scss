@@ -57,6 +57,7 @@ nav {
 
 nav ul li > ul {
 	margin-top: 0;
+	overflow: hidden;
 }
 
 nav ul li ul li a {
@@ -66,6 +67,7 @@ nav ul li ul li a {
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
+	overflow: hidden;
 }
 
 header {
