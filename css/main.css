@@ -32,14 +32,13 @@ nav {
   transition: transform 0.5s ease-in-out;
 }
 nav ul {
-  list-style-type: none;
-  padding: 0;
   margin-top: 8em;
+  padding: 0;
 }
 nav ul a {
   color: black;
   padding: 0.75em 2em;
-  display: block;
+  display: flex;
   width: 100%;
 }
 nav ul a:hover {
@@ -49,6 +48,19 @@ nav .close {
   float: right;
   margin: 2em 2.5em;
   width: 2.5em;
+}
+
+nav ul li > ul {
+  margin-top: 0;
+}
+
+nav ul li ul li a {
+  position: relative;
+  left: -2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 header {
@@ -278,6 +290,7 @@ section.about .container-b .desc h1 {
     width: auto;
     height: auto;
     background: none;
+    margin-top: 0em;
   }
   nav svg.close {
     display: none;
@@ -308,6 +321,14 @@ section.about .container-b .desc h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transform: translateX(-0.1em);
+  }
+  nav ul li:nth-child(2):hover > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-1.9em);
   }
   .section-home {
     width: 100vw;
