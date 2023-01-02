@@ -63,12 +63,11 @@ header svg {
 .section-home {
   width: 100vw;
   height: 100vh;
-  background-image: url("img/21231021_682732491919329_7798571975342854327_n.jpg");
+  background-image: url("../img/one.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 50%;
   filter: blur(2px);
-  z-index: 100;
 }
 
 .logo-home img {
@@ -196,7 +195,7 @@ section.about .container .desc h1 {
   .section-home {
     width: 100vw;
     height: 100vh;
-    background-image: url("../img/21231021_682732491919329_7798571975342854327_n.jpg");
+    background-image: url("../img/one.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 50%;
