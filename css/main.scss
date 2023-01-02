@@ -2,10 +2,14 @@ html {
 	scroll-behavior: smooth;
 }
 
+html::-webkit-scrollbar {
+	width: 0px; /* For Chrome, Safari, and Opera */
+}
+
 body {
 	margin: 0;
 	padding: 0;
-	font-family: "Poppins", sans-serif;
+	font-family: "Dosis", sans-serif;
 	background-color: black;
 	overflow-x: hidden;
 }
@@ -83,6 +87,32 @@ header {
 	background-size: cover;
 	opacity: 50%;
 	filter: blur(2px);
+}
+
+.delivery-btn {
+	position: absolute;
+	left: 50%;
+	top: 70%;
+	transform: translateY(-50%);
+	transform: translateX(-50%);
+	width: auto;
+	height: 100vh;
+}
+
+.delivery-btn button {
+	width: 60vw;
+	height: auto;
+	background-color: black;
+	border-radius: 10px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 2em;
+
+	a {
+		font-size: 3em;
+		color: white;
+	}
 }
 
 .logo-home img {
@@ -206,7 +236,7 @@ section.about {
 
 @media only screen and (min-width: 680px) {
 	body {
-		font-family: "Poppins", sans-serif;
+		font-family: "Dosis", sans-serif;
 	}
 }
 
@@ -317,6 +347,10 @@ section.about {
 		background-color: transparent;
 		opacity: 100%;
 		z-index: 100;
+	}
+
+	.delivery-btn {
+		display: none;
 	}
 
 	section.about {
