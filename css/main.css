@@ -105,7 +105,7 @@ header svg {
 }
 
 .delivery-btn button {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
   border: 1px solid white;
   width: 80%;
   text-decoration: none;
@@ -130,7 +130,7 @@ header svg {
 }
 
 .reservation-btn button {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
   border: 1px solid white;
   width: 80%;
   text-decoration: none;
