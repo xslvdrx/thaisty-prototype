@@ -89,7 +89,7 @@ header svg {
   background-image: url("img/one.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 50%;
+  opacity: 60%;
   filter: blur(2px);
 }
 
