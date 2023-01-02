@@ -89,7 +89,6 @@ header svg {
 section.about {
   background-image: url("../img/pexels-fwstudio-164005.jpg");
   background-color: black;
-  opacity: 1;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -98,31 +97,34 @@ section.about {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100vh;
+  height: auto;
   z-index: 99;
+  overflow-y: auto;
 }
-section.about .container {
+section.about .container-a {
   margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 100vh;
+  justify-content: center;
   align-items: center;
 }
-section.about .container .photo-szef {
+section.about .container-a .photo-szef {
   width: 80%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-section.about .container .photo-szef img {
+section.about .container-a .photo-szef img {
   margin: 0;
   padding: 0;
   width: 90%;
   border-radius: 10px;
 }
-section.about .container .desc {
+section.about .container-a .desc {
   font-family: "Dosis", sans-serif;
   font-weight: 400;
   font-size: 1.5em;
@@ -130,11 +132,52 @@ section.about .container .desc {
   display: flex;
   flex-direction: column;
   color: white;
-  width: 80%;
+  width: 90%;
   height: 60%;
   text-shadow: 2px 2px black;
 }
-section.about .container .desc h1 {
+section.about .container-a .desc h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+}
+section.about .container-b {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  height: 100%;
+  align-items: center;
+}
+section.about .container-b .photo-szef {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.about .container-b .photo-szef img {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 5em;
+  width: 90%;
+  border-radius: 10px;
+}
+section.about .container-b .desc {
+  font-family: "Dosis", sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 90%;
+  height: 60%;
+  text-shadow: 2px 2px black;
+}
+section.about .container-b .desc h1 {
   margin: 0;
   padding: 0;
   font-size: 2em;
