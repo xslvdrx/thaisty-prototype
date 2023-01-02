@@ -195,7 +195,7 @@ section.about .container .desc h1 {
   .section-home {
     width: 100vw;
     height: 100vh;
-    background-image: url("../img/one.jpg");
+    background-image: url("img/one.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 50%;
@@ -222,7 +222,7 @@ section.about .container .desc h1 {
     z-index: 100;
   }
   section.about {
-    background-image: url("../img/pexels-fwstudio-164005.jpg");
+    background-image: url("img/pexels-fwstudio-164005.jpg");
     background-color: black;
     opacity: 1;
     background-repeat: no-repeat;
