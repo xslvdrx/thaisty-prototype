@@ -30,6 +30,7 @@ nav {
   text-transform: uppercase;
   transform: translateX(100%);
   transition: transform 0.5s ease-in-out;
+  overflow: hidden;
 }
 nav ul {
   margin-top: 8em;
@@ -89,7 +90,7 @@ header svg {
 .section-home {
   width: 100vw;
   height: 100vh;
-  background-image: url("img/one.jpg");
+  background-image: url("../img/one.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 60%;
@@ -166,7 +167,7 @@ h1 {
 }
 
 section.about {
-  background-image: url("img/pexels-fwstudio-16400501.png");
+  background-image: url("../img/pexels-fwstudio-16400501.png");
   background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
@@ -179,11 +180,11 @@ section.about {
   height: auto;
   z-index: 99;
   overflow-y: auto;
-  padding-top: 6em;
+  padding: 6em 0 6em 0;
 }
 section.about .container-a {
   margin: 0;
-  padding: 0;
+  padding-top: 2em;
   display: flex;
   flex-direction: column;
   width: 95%;
@@ -215,7 +216,6 @@ section.about .container-a .desc {
   width: 90%;
   height: auto;
   text-shadow: 2px 2px black;
-  padding: 1em 0;
 }
 section.about .container-a .desc p {
   margin: 0;
@@ -299,6 +299,7 @@ section.about .container-b .desc p {
     height: auto;
     background: none;
     margin-top: 0em;
+    overflow: visible;
   }
   nav svg.close {
     display: none;
@@ -341,7 +342,7 @@ section.about .container-b .desc p {
   .section-home {
     width: 100vw;
     height: 100vh;
-    background-image: url("img/one.jpg");
+    background-image: url("../img/one.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -376,7 +377,7 @@ section.about .container-b .desc p {
     display: none;
   }
   section.about {
-    background-image: url("img/pexels-fwstudio-16400501.png");
+    background-image: url("../img/pexels-fwstudio-16400501.png");
     background-color: black;
     background-attachment: fixed;
     background-position: center;
