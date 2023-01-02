@@ -98,7 +98,7 @@ header {
 }
 
 section.about {
-	background-image: url("../img/pexels-fwstudio-164005.jpg");
+	background-image: url("../img/pexels-fwstudio-16400501.png");
 	background-color: black;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -149,6 +149,7 @@ section.about {
 			width: 90%;
 			height: auto;
 			text-shadow: 2px 2px black;
+			padding-bottom: 1em;
 
 			h1 {
 				margin: 0;
@@ -319,7 +320,7 @@ section.about {
 	}
 
 	section.about {
-		background-image: url("../img/pexels-fwstudio-164005.jpg");
+		background-image: url("../img/pexels-fwstudio-16400501.png");
 		background-color: black;
 		background-attachment: fixed;
 		background-position: center;
@@ -344,7 +345,6 @@ section.about {
 			padding: 0em 1em;
 
 			.photo-szef {
-				padding-top: 1.5em;
 				width: 50%;
 				height: 100vh;
 				display: flex;

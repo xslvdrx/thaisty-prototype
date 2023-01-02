@@ -89,7 +89,7 @@ header svg {
 }
 
 section.about {
-  background-image: url("../img/pexels-fwstudio-164005.jpg");
+  background-image: url("../img/pexels-fwstudio-16400501.png");
   background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
@@ -138,6 +138,7 @@ section.about .container-a .desc {
   width: 90%;
   height: auto;
   text-shadow: 2px 2px black;
+  padding-bottom: 1em;
 }
 section.about .container-a .desc h1 {
   margin: 0;
@@ -284,7 +285,7 @@ section.about .container-b .desc h1 {
     z-index: 100;
   }
   section.about {
-    background-image: url("../img/pexels-fwstudio-164005.jpg");
+    background-image: url("../img/pexels-fwstudio-16400501.png");
     background-color: black;
     background-attachment: fixed;
     background-position: center;
@@ -309,7 +310,6 @@ section.about .container-b .desc h1 {
     padding: 0em 1em;
   }
   section.about .container-a .photo-szef {
-    padding-top: 1.5em;
     width: 50%;
     height: 100vh;
     display: flex;
