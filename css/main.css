@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -95,7 +99,6 @@ section.about {
   align-items: center;
   width: 100%;
   height: 100vh;
-  overflow-y: hidden;
   z-index: 99;
 }
 section.about .container {
@@ -116,13 +119,14 @@ section.about .container .photo-szef {
 section.about .container .photo-szef img {
   margin: 0;
   padding: 0;
-  width: 80%;
+  width: 90%;
   border-radius: 10px;
 }
 section.about .container .desc {
   font-family: "Dosis", sans-serif;
   font-weight: 400;
   font-size: 1.5em;
+  text-align: justify;
   display: flex;
   flex-direction: column;
   color: white;
@@ -192,10 +196,23 @@ section.about .container .desc h1 {
     text-decoration: none;
     color: burlywood;
   }
+  nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+  }
+  nav ul li:hover > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .section-home {
     width: 100vw;
     height: 100vh;
     background-image: url("../img/one.jpg");
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 50%;
@@ -224,20 +241,20 @@ section.about .container .desc h1 {
   section.about {
     background-image: url("../img/pexels-fwstudio-164005.jpg");
     background-color: black;
-    opacity: 1;
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 100vh;
+    height: auto;
     overflow-y: hidden;
     z-index: 99;
   }
-  section.about .container {
+  section.about .container-a {
     display: flex;
     flex-direction: row;
     width: 80%;
@@ -246,20 +263,20 @@ section.about .container .desc h1 {
     justify-content: center;
     padding: 0em 1em;
   }
-  section.about .container .photo-szef {
-    padding-top: 4em;
+  section.about .container-a .photo-szef {
+    padding-top: 1.5em;
     width: 50%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  section.about .container .photo-szef img {
+  section.about .container-a .photo-szef img {
     width: 80%;
     border: 0px solid;
     border-radius: 10px;
   }
-  section.about .container .desc {
+  section.about .container-a .desc {
     font-family: "Dosis", sans-serif;
     font-weight: 400;
     font-size: 1.5em;
@@ -271,7 +288,44 @@ section.about .container .desc h1 {
     height: 60%;
     text-shadow: 2px 2px black;
   }
-  section.about .container .desc h1 {
+  section.about .container-a .desc h1 {
+    font-size: 2em;
+  }
+  section.about .container-b {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 0em 1em 6em 0em;
+  }
+  section.about .container-b .photo-szef {
+    padding-top: 1.5em;
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section.about .container-b .photo-szef img {
+    width: 80%;
+    border: 0px solid;
+    border-radius: 10px;
+  }
+  section.about .container-b .desc {
+    font-family: "Dosis", sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    width: 50%;
+    height: 60%;
+    text-shadow: 2px 2px black;
+  }
+  section.about .container-b .desc h1 {
     font-size: 2em;
   }
 }
