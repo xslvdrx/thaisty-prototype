@@ -82,7 +82,7 @@ header {
 .section-home {
 	width: 100vw;
 	height: 100vh;
-	background-image: url("img/one.jpg");
+	background-image: url("../img/one.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	opacity: 50%;
@@ -95,15 +95,14 @@ header {
 	top: 70%;
 	transform: translateY(-50%);
 	transform: translateX(-50%);
-	width: auto;
-	height: 100vh;
 }
 
 .delivery-btn button {
 	width: 60vw;
-	height: auto;
-	background-color: black;
-	border-radius: 10px;
+	height: 25vh;
+	background-color: rgba(0, 0, 0, 0.4);
+	border: 0px solid black;
+	border-radius: 100%;
 	color: white;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -121,7 +120,7 @@ header {
 	left: 1em;
 	width: 10em;
 	visibility: visible;
-	z-index: 999;
+	z-index: 998;
 }
 
 .logo-home-desktop {
@@ -142,7 +141,7 @@ section.about {
 	height: auto;
 	z-index: 99;
 	overflow-y: auto;
-	padding: 2em 0;
+	padding: 5em 0;
 
 	.container-a {
 		margin: 0;
