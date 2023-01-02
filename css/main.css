@@ -197,7 +197,7 @@ section.about .container-a .photo-szef {
 }
 section.about .container-a .photo-szef img {
   margin: 0;
-  padding: 0;
+  padding: 1.5em 0;
   width: 90%;
   border-radius: 10px;
 }
