@@ -119,6 +119,13 @@ header svg {
   display: none;
 }
 
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+  text-align: center;
+}
+
 section.about {
   background-image: url("img/pexels-fwstudio-16400501.png");
   background-color: black;
@@ -134,7 +141,6 @@ section.about {
   z-index: 99;
   overflow-y: auto;
   padding: 5em 0;
-  text-align: center;
 }
 section.about .container-a {
   margin: 0;
@@ -171,11 +177,6 @@ section.about .container-a .desc {
   height: auto;
   text-shadow: 2px 2px black;
   padding-bottom: 1em;
-}
-section.about .container-a .desc h1 {
-  margin: 0;
-  padding: 0;
-  font-size: 2em;
 }
 section.about .container-b {
   margin: 0;
