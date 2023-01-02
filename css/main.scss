@@ -168,7 +168,7 @@ header {
 
 h1 {
 	margin: 0;
-	padding: 1em 0 0.1em 0;
+	padding: 0.8em 0 0.1em 0;
 	font-size: 2em;
 	text-align: center;
 }
@@ -187,6 +187,7 @@ section.about {
 	height: auto;
 	z-index: 99;
 	overflow-y: auto;
+	padding-top: 6em;
 
 	.container-a {
 		margin: 0;
@@ -207,7 +208,7 @@ section.about {
 
 			img {
 				margin: 0;
-				padding:0;
+				padding: 0;
 				width: 90%;
 				border-radius: 10px;
 			}
@@ -224,7 +225,12 @@ section.about {
 			width: 90%;
 			height: auto;
 			text-shadow: 2px 2px black;
-			padding-bottom: 1.5em;
+			padding: 1em 0;
+
+			p {
+				margin: 0;
+				padding: 1em 0;
+			}
 		}
 	}
 
@@ -237,6 +243,7 @@ section.about {
 		width: 95%;
 		height: 100%;
 		align-items: center;
+		padding-bottom: 5em;
 
 		.photo-szef {
 			width: 100%;
@@ -263,6 +270,11 @@ section.about {
 			width: 90%;
 			height: auto;
 			text-shadow: 2px 2px black;
+
+			p {
+				margin: 0;
+				padding: 1em 0;
+			}
 		}
 	}
 }
