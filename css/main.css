@@ -74,6 +74,8 @@ header svg {
   width: 100vw;
   height: 100vh;
   background-image: url("img/one.jpg");
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 50%;
