@@ -101,7 +101,6 @@ header svg {
   width: 100vw;
   height: auto;
   position: absolute;
-  bottom: 0.1em;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -129,7 +128,6 @@ header svg {
   width: 100vw;
   height: auto;
   position: absolute;
-  bottom: 0.1em;
   display: flex;
   justify-content: center;
   align-items: flex-end;
