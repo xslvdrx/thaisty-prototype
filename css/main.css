@@ -101,7 +101,7 @@ header svg {
   width: 100vw;
   height: auto;
   position: absolute;
-  bottom: 0.5em;
+  bottom: 0.1em;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -129,7 +129,7 @@ header svg {
   width: 100vw;
   height: auto;
   position: absolute;
-  bottom: 1em;
+  bottom: 0.1em;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -167,7 +167,7 @@ header svg {
 
 h1 {
   margin: 0;
-  padding: 0.8em 0 0.1em 0;
+  padding: 1em 0 0.5em 0;
   font-size: 2em;
   text-align: center;
 }
@@ -190,24 +190,23 @@ section.about {
 }
 section.about .container-a {
   margin: 0;
-  padding-top: 2em;
   display: flex;
   flex-direction: column;
   width: 95%;
-  height: 100vh;
+  height: auto;
   justify-content: center;
   align-items: center;
 }
 section.about .container-a .photo-szef {
   width: 100%;
-  height: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 section.about .container-a .photo-szef img {
   margin: 0;
-  padding: 0;
+  padding: 0 0 0em 0;
   width: 90%;
   border-radius: 10px;
 }
@@ -225,7 +224,6 @@ section.about .container-a .desc {
 }
 section.about .container-a .desc p {
   margin: 0;
-  padding: 1em 0;
 }
 section.about .container-b {
   margin: 0;
@@ -236,7 +234,6 @@ section.about .container-b {
   width: 95%;
   height: 100%;
   align-items: center;
-  padding-bottom: 5em;
 }
 section.about .container-b .photo-szef {
   width: 100%;
@@ -247,7 +244,7 @@ section.about .container-b .photo-szef {
 }
 section.about .container-b .photo-szef img {
   margin: 0;
-  padding: 0;
+  padding: 2em 0 2em 0;
   width: 90%;
   border-radius: 10px;
 }
@@ -265,7 +262,6 @@ section.about .container-b .desc {
 }
 section.about .container-b .desc p {
   margin: 0;
-  padding: 1em 0 2em 0;
 }
 
 @media only screen and (min-width: 680px) {
@@ -336,14 +332,14 @@ section.about .container-b .desc p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transform: translateX(-0.1em);
+    transform: translateX(1.2em);
   }
   nav ul li:nth-child(2):hover > ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transform: translateX(-1.9em);
+    transform: translateX(-0.5em);
   }
   .section-home {
     width: 100vw;
@@ -406,11 +402,11 @@ section.about .container-b .desc p {
     height: 60%;
     align-items: center;
     justify-content: center;
-    padding: 0em 1em;
+    padding: 1em 0em;
   }
   section.about .container-a .photo-szef {
     width: 50%;
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -442,10 +438,9 @@ section.about .container-b .desc p {
     height: 50%;
     align-items: center;
     justify-content: center;
-    padding: 0em 1em 6em 0em;
+    padding: 1em 0em;
   }
   section.about .container-b .photo-szef {
-    padding-top: 1.5em;
     width: 50%;
     height: auto;
     display: flex;
@@ -471,6 +466,7 @@ section.about .container-b .desc p {
   }
   section.about .container-b .desc h1 {
     font-size: 2em;
+    padding-top: 0;
   }
 }
 @media only screen and (min-width: 1200px) {
