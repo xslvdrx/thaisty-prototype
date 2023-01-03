@@ -18,7 +18,18 @@
 		<div class="logo-home-desktop"><img src="img/logo3.png" alt=""></div>
 		<div class="wrapper">
 			<header>
-				<nav>
+				<svg
+					class="menu" id="menu"
+					viewBox="0 0 48 32"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+						d="M24 32H0V26.6667H24V32ZM48 18.6667H0V13.3333H48V18.6667ZM48 5.33333H24V0H48V5.33333Z"
+						fill="white"
+					/>
+				</svg>
+				<nav id="nav">
 					<svg
 						class="close"
 						width="33"
@@ -51,21 +62,9 @@
 						<li><a href="#">Kontakt</a></li>
 					</ul>
 				</nav>
-				<svg
-					class="menu"
-					viewBox="0 0 48 32"
-					fill="none"
-					xmlns="http://www.w3.org/2000/svg"
-				>
-					<path
-						d="M24 32H0V26.6667H24V32ZM48 18.6667H0V13.3333H48V18.6667ZM48 5.33333H24V0H48V5.33333Z"
-						fill="white"
-					/>
-				</svg>
 			</header>
 
 			<section class="section-home">
-				
 			</section>
 
 			<div class="delivery-btn">
@@ -111,20 +110,24 @@
 
 				</div>
 			</section>
+		<script>
+			const menu = document.getElementById('menu');
+			const nav = document.getElementById('nav');
+
+			document.onclick = function(e){
+				if(e.target.id !== 'nav' && e.target.id !== 'menu')
+				{
+					menu.classList.remove('open-nav');
+					nav.classList.remove('open-nav');
+				}
+			}
 
 
-        <script>
-            const menu = document.querySelector('.menu')
-            const close = document.querySelector('.close')
-            const nav = document.querySelector('nav')
-
-            menu.addEventListener('click', () => {
-                nav.classList.add('open-nav')
-            })
-
-            close.addEventListener('click', () => {
-                nav.classList.remove('open-nav')
-            })
-        </script>
+			menu.onclick = function() {
+				menu.classList.toggle('open-nav');
+				nav.classList.toggle('open-nav');
+			}
+		</script>
+		<script src="script.js"></script>
 	</body>
 </html>

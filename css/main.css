@@ -68,6 +68,10 @@ nav ul li ul li a {
   padding: 0.5em 0;
 }
 
+#nav.open-nav {
+  right: 0px;
+}
+
 header {
   width: 100%;
   position: fixed;
