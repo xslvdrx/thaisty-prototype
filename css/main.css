@@ -108,7 +108,7 @@ header svg {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  transform: translateY(-16em);
+  transform: translateY(-17em);
 }
 .delivery-btn .button {
   font-family: "Dosis", sans-serif;
@@ -136,7 +136,7 @@ header svg {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  transform: translateY(-11em);
+  transform: translateY(-12em);
 }
 .reservation-btn .button {
   font-family: "Dosis", sans-serif;
