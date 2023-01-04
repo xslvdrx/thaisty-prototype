@@ -94,7 +94,7 @@ header svg {
 .section-home {
   width: 100vw;
   height: 100vh;
-  background-image: url("img/one.jpg");
+  background-image: url("../img/one.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 60%;
@@ -110,21 +110,22 @@ header svg {
   align-items: flex-end;
   transform: translateY(-16em);
 }
-.delivery-btn button {
+.delivery-btn .button {
+  font-family: "Dosis", sans-serif;
   background-color: rgba(0, 0, 0, 0.5);
   border: 1px solid white;
-  width: 80%;
-  text-decoration: none;
-  padding: 1.5em 4em;
-}
-.delivery-btn button a {
-  font-family: "Dosis", sans-serif;
-  font-size: 2em;
   color: white;
-  letter-spacing: 2px;
+  width: 80%;
+  height: auto;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2em;
+  padding: 0.5em 0;
+  cursor: pointer;
 }
 
-.delivery-btn button:hover {
+.delivery-btn .button:hover {
   background-color: rgba(255, 123, 0, 0.5);
 }
 
@@ -137,20 +138,22 @@ header svg {
   align-items: flex-end;
   transform: translateY(-11em);
 }
-.reservation-btn button {
+.reservation-btn .button {
+  font-family: "Dosis", sans-serif;
   background-color: rgba(0, 0, 0, 0.5);
   border: 1px solid white;
-  width: 80%;
-  text-decoration: none;
-  padding: 1.5em 4em;
-}
-.reservation-btn button a {
-  font-family: "Dosis", sans-serif;
-  font-size: 2em;
   color: white;
+  width: 80%;
+  height: auto;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2em;
+  padding: 0.5em 0;
+  cursor: pointer;
 }
 
-.reservation-btn button:hover {
+.reservation-btn .button:hover {
   background-color: rgba(255, 123, 0, 0.5);
 }
 
@@ -175,7 +178,7 @@ h1 {
 }
 
 section.about {
-  background-image: url("img/pexels-fwstudio-16400501.png");
+  background-image: url("../img/pexels-fwstudio-16400501.png");
   background-color: black;
   background-repeat: no-repeat;
   background-size: cover;

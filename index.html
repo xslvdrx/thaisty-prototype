@@ -68,15 +68,11 @@
 			</section>
 
 			<div class="delivery-btn">
-				<button>
-					<a href="#">Zamów Online</a>
-				</button>
+					<a href="#" class="button">Zamów Online</a>
 			</div>
 
 			<div class="reservation-btn">
-				<button>
-					<a href="tel:+48730000024">Zarezerwuj Stolik</a>
-				</button>
+					<a href="tel:+48730000024" class="button">Zarezerwuj Stolik</a>
 			</div>
 
 			<div class="logo-home">
@@ -110,24 +106,7 @@
 
 				</div>
 			</section>
-		<script>
-			const menu = document.getElementById('menu');
-			const nav = document.getElementById('nav');
-
-			document.onclick = function(e){
-				if(e.target.id !== 'nav' && e.target.id !== 'menu')
-				{
-					menu.classList.remove('open-nav');
-					nav.classList.remove('open-nav');
-				}
-			}
-
-
-			menu.onclick = function() {
-				menu.classList.toggle('open-nav');
-				nav.classList.toggle('open-nav');
-			}
-		</script>
+		
 		<script src="script.js"></script>
 	</body>
 </html>
