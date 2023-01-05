@@ -303,6 +303,17 @@ section.restaurant-menu {
 	z-index: 99;
 	overflow-y: auto;
 
+	h1 {
+		color: white;
+		margin: 0;
+		padding: 3em 0 0 0;
+		font-size: 2em;
+		text-align: center;
+
+		span {
+			padding: 0 0.5em;
+		}
+	}
 	.container {
 		margin: 0;
 		display: flex;
@@ -312,18 +323,6 @@ section.restaurant-menu {
 		justify-content: center;
 		align-items: center;
 		text-shadow: 2px 2px black;
-
-		h1 {
-			color: white;
-			margin: 0;
-			padding: 0 0 1em 0;
-			font-size: 2em;
-			text-align: center;
-
-			span {
-				padding: 0 0.5em;
-			}
-		}
 
 		.bankowy-menu {
 			width: 100%;
@@ -640,6 +639,123 @@ section.restaurant-menu {
 				h1 {
 					font-size: 2em;
 					padding-top: 0;
+				}
+			}
+		}
+	}
+	section.restaurant-menu {
+		background-image: url("img/pexels-fwstudio-16400501.png");
+		background-color: black;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+		z-index: 99;
+		overflow-y: auto;
+
+		h1 {
+			color: white;
+			margin: 0;
+			padding: 3em 0 0 0;
+			font-size: 2em;
+			text-align: center;
+
+			span {
+				padding: 0 0.5em;
+			}
+		}
+
+		.container {
+			margin: 0;
+			display: flex;
+			flex-direction: row;
+			width: 95%;
+			height: 100%;
+			justify-content: center;
+			align-items: center;
+			text-shadow: 2px 2px black;
+
+			.bankowy-menu {
+				width: 100%;
+				height: auto;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				padding-bottom: 2em;
+
+				h2 {
+					color: white;
+					margin: 0;
+					font-size: 2em;
+					text-align: center;
+				}
+
+				img {
+					margin: 0;
+					padding: 0 0 0 0;
+					width: 78%;
+					border-radius: 10px;
+				}
+
+				.button {
+					width: 80%;
+					font-size: 1.5em;
+					text-align: center;
+					text-decoration: none;
+					color: white;
+					border: 1px solid white;
+					padding: 0.6em 0;
+					margin: 0.6em 0;
+					background-color: rgba(0, 0, 0, 0.5);
+
+					&:hover {
+						background-color: rgba(255, 123, 0, 0.5);
+					}
+				}
+			}
+
+			.zoli-menu {
+				width: 100%;
+				height: auto;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				padding-bottom: 0.7em;
+
+				h2 {
+					color: white;
+					margin: 0;
+					font-size: 2em;
+					text-align: center;
+				}
+
+				img {
+					margin: 0;
+					padding: 0 0 0 0;
+					width: 80%;
+					border-radius: 10px;
+				}
+
+				.button {
+					width: 80%;
+					font-size: 1.5em;
+					text-align: center;
+					text-decoration: none;
+					color: white;
+					border: 1px solid white;
+					padding: 0.6em 0;
+					margin: 0.6em 0;
+					background-color: rgba(0, 0, 0, 0.5);
+
+					&:hover {
+						background-color: rgba(255, 123, 0, 0.5);
+					}
 				}
 			}
 		}
