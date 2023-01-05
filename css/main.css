@@ -297,12 +297,12 @@ section.restaurant-menu .container {
 section.restaurant-menu .container h1 {
   color: white;
   margin: 0;
-  padding: 1em 0 2em 0;
+  padding: 0 0 2em 0;
   font-size: 2em;
   text-align: center;
 }
 section.restaurant-menu .container h1 span {
-  padding: 1em;
+  padding: 0 1em;
 }
 section.restaurant-menu .container .bankowy-menu {
   width: 100%;
@@ -332,7 +332,7 @@ section.restaurant-menu .container .zoli-menu {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 1em;
+  padding-bottom: 4em;
 }
 section.restaurant-menu .container .zoli-menu h2 {
   color: white;

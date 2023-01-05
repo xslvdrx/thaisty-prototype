@@ -315,12 +315,12 @@ section.restaurant-menu {
 		h1 {
 			color: white;
 			margin: 0;
-			padding: 1em 0 2em 0;
+			padding:0 0 2em 0;
 			font-size: 2em;
 			text-align: center;
 
 			span {
-				padding: 1em;
+				padding: 0 1em;
 			}
 		}
 
@@ -355,7 +355,7 @@ section.restaurant-menu {
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
-			padding-bottom: 1em;
+			padding-bottom: 4em;
 
 			h2 {
 				color: white;
