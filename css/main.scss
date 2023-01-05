@@ -311,6 +311,7 @@ section.restaurant-menu {
 		height: 100%;
 		justify-content: center;
 		align-items: center;
+		text-shadow: 2px 2px black;
 
 		h1 {
 			color: white;
@@ -318,7 +319,6 @@ section.restaurant-menu {
 			padding: 0 0 1em 0;
 			font-size: 2em;
 			text-align: center;
-			text-shadow: 2px 2px black;
 
 			span {
 				padding: 0 0.5em;
@@ -339,7 +339,6 @@ section.restaurant-menu {
 				margin: 0;
 				font-size: 2em;
 				text-align: center;
-				text-shadow: 2px 2px black;
 			}
 
 			img {
