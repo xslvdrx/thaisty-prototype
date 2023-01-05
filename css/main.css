@@ -288,7 +288,7 @@ section.restaurant-menu {
 section.restaurant-menu h1 {
   color: white;
   margin: 0;
-  padding: 3em 0 0 0;
+  padding: 2.5em 0 0 0;
   font-size: 2em;
   text-align: center;
 }
@@ -304,7 +304,7 @@ section.restaurant-menu .container {
   justify-content: center;
   align-items: center;
   text-shadow: 2px 2px black;
-  transform: translateY(-4em);
+  transform: translateY(-5em);
 }
 section.restaurant-menu .container .bankowy-menu {
   width: 100%;
