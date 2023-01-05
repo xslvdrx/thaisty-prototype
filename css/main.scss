@@ -679,6 +679,7 @@ section.restaurant-menu {
 			justify-content: center;
 			align-items: center;
 			text-shadow: 2px 2px black;
+			transform: translateY(0em);
 
 			.bankowy-menu {
 				width: 100%;
@@ -727,7 +728,7 @@ section.restaurant-menu {
 				flex-direction: column;
 				justify-content: center;
 				align-items: center;
-				padding-bottom: 0.7em;
+				padding-bottom: 1.9em;
 
 				h2 {
 					color: white;

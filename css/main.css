@@ -613,6 +613,7 @@ section.restaurant-menu .container .zoli-menu .button:hover {
     justify-content: center;
     align-items: center;
     text-shadow: 2px 2px black;
+    transform: translateY(0em);
   }
   section.restaurant-menu .container .bankowy-menu {
     width: 100%;
@@ -656,7 +657,7 @@ section.restaurant-menu .container .zoli-menu .button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 0.7em;
+    padding-bottom: 1.9em;
   }
   section.restaurant-menu .container .zoli-menu h2 {
     color: white;
