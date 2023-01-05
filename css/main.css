@@ -297,9 +297,10 @@ section.restaurant-menu .container {
 section.restaurant-menu .container h1 {
   color: white;
   margin: 0;
-  padding: 0 0 2em 0;
+  padding: 0 0 1em 0;
   font-size: 2em;
   text-align: center;
+  text-shadow: 2px 2px black;
 }
 section.restaurant-menu .container h1 span {
   padding: 0 0.5em;
@@ -318,12 +319,26 @@ section.restaurant-menu .container .bankowy-menu h2 {
   margin: 0;
   font-size: 2em;
   text-align: center;
+  text-shadow: 2px 2px black;
 }
 section.restaurant-menu .container .bankowy-menu img {
   margin: 0;
   padding: 0 0 0 0;
   width: 90%;
   border-radius: 10px;
+}
+section.restaurant-menu .container .bankowy-menu .button {
+  width: 80%;
+  font-size: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 0.6em 0;
+  margin: 0.6em 0;
+}
+section.restaurant-menu .container .bankowy-menu .button:hover {
+  background-color: rgba(255, 123, 0, 0.5);
 }
 section.restaurant-menu .container .zoli-menu {
   width: 100%;
@@ -332,7 +347,6 @@ section.restaurant-menu .container .zoli-menu {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 7em;
 }
 section.restaurant-menu .container .zoli-menu h2 {
   color: white;
@@ -345,6 +359,19 @@ section.restaurant-menu .container .zoli-menu img {
   padding: 0 0 0 0;
   width: 80%;
   border-radius: 10px;
+}
+section.restaurant-menu .container .zoli-menu .button {
+  width: 80%;
+  font-size: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 0.6em 0;
+  margin: 0.6em 0;
+}
+section.restaurant-menu .container .zoli-menu .button:hover {
+  background-color: rgba(255, 123, 0, 0.5);
 }
 
 @media only screen and (min-width: 680px) {

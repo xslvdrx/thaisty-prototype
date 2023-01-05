@@ -315,9 +315,10 @@ section.restaurant-menu {
 		h1 {
 			color: white;
 			margin: 0;
-			padding: 0 0 2em 0;
+			padding: 0 0 1em 0;
 			font-size: 2em;
 			text-align: center;
+			text-shadow: 2px 2px black;
 
 			span {
 				padding: 0 0.5em;
@@ -338,6 +339,7 @@ section.restaurant-menu {
 				margin: 0;
 				font-size: 2em;
 				text-align: center;
+				text-shadow: 2px 2px black;
 			}
 
 			img {
@@ -345,6 +347,21 @@ section.restaurant-menu {
 				padding: 0 0 0 0;
 				width: 90%;
 				border-radius: 10px;
+			}
+
+			.button {
+				width: 80%;
+				font-size: 1.5em;
+				text-align: center;
+				text-decoration: none;
+				color: white;
+				border: 1px solid white;
+				padding: 0.6em 0;
+				margin: 0.6em 0;
+
+				&:hover {
+					background-color: rgba(255, 123, 0, 0.5);
+				}
 			}
 		}
 
@@ -355,7 +372,6 @@ section.restaurant-menu {
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
-			padding-bottom: 7em;
 
 			h2 {
 				color: white;
@@ -369,6 +385,21 @@ section.restaurant-menu {
 				padding: 0 0 0 0;
 				width: 80%;
 				border-radius: 10px;
+			}
+
+			.button {
+				width: 80%;
+				font-size: 1.5em;
+				text-align: center;
+				text-decoration: none;
+				color: white;
+				border: 1px solid white;
+				padding: 0.6em 0;
+				margin: 0.6em 0;
+
+				&:hover {
+					background-color: rgba(255, 123, 0, 0.5);
+				}
 			}
 		}
 	}
