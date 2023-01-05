@@ -312,7 +312,7 @@ section.restaurant-menu .container .bankowy-menu {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 3em;
+  padding-bottom: 2em;
 }
 section.restaurant-menu .container .bankowy-menu h2 {
   color: white;
