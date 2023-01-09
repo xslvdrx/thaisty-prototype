@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
 html {
   scroll-behavior: smooth;
 }
@@ -415,6 +416,9 @@ section.restaurant-menu .container .zoli-menu .button:hover {
     margin-top: 0em;
     overflow: visible;
   }
+  nav .active-link {
+    color: burlywood;
+  }
   nav svg.close {
     display: none;
   }
@@ -615,7 +619,7 @@ section.restaurant-menu .container .zoli-menu .button:hover {
     text-shadow: 2px 2px black;
     transform: translateY(0em);
   }
-  section.restaurant-menu .container .bankowy-menu {
+  section.restaurant-menu .container .bankowy-menu a {
     width: 100%;
     height: auto;
     display: flex;
@@ -623,20 +627,21 @@ section.restaurant-menu .container .zoli-menu .button:hover {
     justify-content: center;
     align-items: center;
     padding-bottom: 2em;
+    text-decoration: none;
   }
-  section.restaurant-menu .container .bankowy-menu h2 {
+  section.restaurant-menu .container .bankowy-menu a h2 {
     color: white;
     margin: 0;
     font-size: 2em;
     text-align: center;
   }
-  section.restaurant-menu .container .bankowy-menu img {
+  section.restaurant-menu .container .bankowy-menu a img {
     margin: 0;
-    padding: 0 0 0 0;
+    padding: 0 0 1.5em 0;
     width: 78%;
     border-radius: 10px;
   }
-  section.restaurant-menu .container .bankowy-menu .button {
+  section.restaurant-menu .container .bankowy-menu a .button {
     width: 80%;
     font-size: 1.5em;
     text-align: center;
@@ -647,31 +652,32 @@ section.restaurant-menu .container .zoli-menu .button:hover {
     margin: 0.6em 0;
     background-color: rgba(0, 0, 0, 0.5);
   }
-  section.restaurant-menu .container .bankowy-menu .button:hover {
+  section.restaurant-menu .container .bankowy-menu a .button:hover {
     background-color: rgba(255, 123, 0, 0.5);
   }
-  section.restaurant-menu .container .zoli-menu {
+  section.restaurant-menu .container .zoli-menu a {
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 1.9em;
+    padding-bottom: 0.5em;
+    text-decoration: none;
   }
-  section.restaurant-menu .container .zoli-menu h2 {
+  section.restaurant-menu .container .zoli-menu a h2 {
     color: white;
     margin: 0;
     font-size: 2em;
     text-align: center;
   }
-  section.restaurant-menu .container .zoli-menu img {
+  section.restaurant-menu .container .zoli-menu a img {
     margin: 0;
-    padding: 0 0 0 0;
+    padding: 0 0 3em 0;
     width: 80%;
     border-radius: 10px;
   }
-  section.restaurant-menu .container .zoli-menu .button {
+  section.restaurant-menu .container .zoli-menu a .button {
     width: 80%;
     font-size: 1.5em;
     text-align: center;
@@ -682,7 +688,7 @@ section.restaurant-menu .container .zoli-menu .button:hover {
     margin: 0.6em 0;
     background-color: rgba(0, 0, 0, 0.5);
   }
-  section.restaurant-menu .container .zoli-menu .button:hover {
+  section.restaurant-menu .container .zoli-menu a .button:hover {
     background-color: rgba(255, 123, 0, 0.5);
   }
 }

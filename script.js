@@ -24,3 +24,23 @@ menu.onclick = function () {
 	menu.classList.toggle("open-nav");
 	nav.classList.toggle("open-nav");
 };
+
+document.addEventListener("DOMContentLoaded", function () {
+	const selector = "nav a";
+	const elems = Array.from(document.querySelectorAll(selector));
+	const navigation = document.querySelector("nav");
+
+	function makeActive(evt) {
+		const target = evt.target;
+
+		if (!target || !target.matches(selector)) {
+			return;
+		}
+
+		elems.forEach((elem) => elem.classList.remove("active-link"));
+
+		evt.target.classList.add("active-link");
+	}
+
+	navigation.addEventListener("mousedown", makeActive);
+});

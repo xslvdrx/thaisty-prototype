@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+
 html {
 	scroll-behavior: smooth;
 }
@@ -454,6 +456,10 @@ section.restaurant-menu {
 		margin-top: 0em;
 		overflow: visible;
 
+		.active-link {
+			color: burlywood;
+		}
+
 		svg.close {
 			display: none;
 		}
@@ -681,7 +687,7 @@ section.restaurant-menu {
 			text-shadow: 2px 2px black;
 			transform: translateY(0em);
 
-			.bankowy-menu {
+			.bankowy-menu a {
 				width: 100%;
 				height: auto;
 				display: flex;
@@ -689,6 +695,7 @@ section.restaurant-menu {
 				justify-content: center;
 				align-items: center;
 				padding-bottom: 2em;
+				text-decoration: none;
 
 				h2 {
 					color: white;
@@ -699,7 +706,7 @@ section.restaurant-menu {
 
 				img {
 					margin: 0;
-					padding: 0 0 0 0;
+					padding: 0 0 1.5em 0;
 					width: 78%;
 					border-radius: 10px;
 				}
@@ -721,14 +728,15 @@ section.restaurant-menu {
 				}
 			}
 
-			.zoli-menu {
+			.zoli-menu a {
 				width: 100%;
 				height: auto;
 				display: flex;
 				flex-direction: column;
 				justify-content: center;
 				align-items: center;
-				padding-bottom: 1.9em;
+				padding-bottom: 0.5em;
+				text-decoration: none;
 
 				h2 {
 					color: white;
@@ -739,7 +747,7 @@ section.restaurant-menu {
 
 				img {
 					margin: 0;
-					padding: 0 0 0 0;
+					padding: 0 0 3em 0;
 					width: 80%;
 					border-radius: 10px;
 				}
