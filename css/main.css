@@ -319,7 +319,6 @@ section.restaurant-menu .container {
   justify-content: center;
   align-items: center;
   text-shadow: 2px 2px black;
-  transform: translateY(-3em);
 }
 section.restaurant-menu .container .bankowy-menu {
   width: 100%;
