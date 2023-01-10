@@ -286,6 +286,20 @@ section.restaurant-menu {
   z-index: 99;
   overflow-y: auto;
 }
+section.restaurant-menu .button {
+  width: 80%;
+  font-size: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 0.6em 0;
+  margin: 0.6em 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+section.restaurant-menu .button:hover {
+  background-color: rgba(255, 123, 0, 0.5);
+}
 section.restaurant-menu h1 {
   color: white;
   margin: 0;
@@ -314,33 +328,22 @@ section.restaurant-menu .container .bankowy-menu {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 2em;
 }
-section.restaurant-menu .container .bankowy-menu h2 {
+section.restaurant-menu .container .bankowy-menu a {
+  text-decoration: none;
+}
+section.restaurant-menu .container .bankowy-menu a h2 {
   color: white;
   margin: 0;
   font-size: 2em;
   text-align: center;
 }
-section.restaurant-menu .container .bankowy-menu img {
-  margin: 0;
-  padding: 0 0 0 0;
+section.restaurant-menu .container .bankowy-menu a img {
+  margin: 0 auto;
+  display: block;
+  padding: 0;
   width: 90%;
   border-radius: 10px;
-}
-section.restaurant-menu .container .bankowy-menu .button {
-  width: 80%;
-  font-size: 1.5em;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  border: 1px solid white;
-  padding: 0.6em 0;
-  margin: 0.6em 0;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-section.restaurant-menu .container .bankowy-menu .button:hover {
-  background-color: rgba(255, 123, 0, 0.5);
 }
 section.restaurant-menu .container .zoli-menu {
   width: 100%;
@@ -349,32 +352,24 @@ section.restaurant-menu .container .zoli-menu {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
+  padding-top: 2em;
 }
-section.restaurant-menu .container .zoli-menu h2 {
+section.restaurant-menu .container .zoli-menu a {
+  text-decoration: none;
+}
+section.restaurant-menu .container .zoli-menu a h2 {
   color: white;
   margin: 0;
   font-size: 2em;
   text-align: center;
 }
-section.restaurant-menu .container .zoli-menu img {
-  margin: 0;
-  padding: 0 0 0 0;
+section.restaurant-menu .container .zoli-menu a img {
+  margin: 0 auto;
+  display: block;
+  padding: 0;
   width: 80%;
   border-radius: 10px;
-}
-section.restaurant-menu .container .zoli-menu .button {
-  width: 80%;
-  font-size: 1.5em;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  border: 1px solid white;
-  padding: 0.6em 0;
-  margin: 0.6em 0;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-section.restaurant-menu .container .zoli-menu .button:hover {
-  background-color: rgba(255, 123, 0, 0.5);
 }
 
 @media only screen and (min-width: 680px) {
@@ -612,37 +607,43 @@ section.restaurant-menu .container .zoli-menu .button:hover {
     margin: 0;
     display: flex;
     flex-direction: row;
-    width: 95%;
+    width: 80%;
     height: 100%;
-    justify-content: center;
-    align-items: center;
     text-shadow: 2px 2px black;
     transform: translateY(0em);
   }
-  section.restaurant-menu .container .bankowy-menu a {
+  section.restaurant-menu .container .bankowy-menu {
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    padding-bottom: 2em;
     text-decoration: none;
   }
   section.restaurant-menu .container .bankowy-menu a h2 {
     color: white;
     margin: 0;
+    padding-bottom: 1em;
     font-size: 2em;
     text-align: center;
   }
   section.restaurant-menu .container .bankowy-menu a img {
-    margin: 0;
-    padding: 0 0 1.5em 0;
-    width: 78%;
+    transition-duration: 2s;
+    margin: 0 auto;
+    display: block;
+    padding: 0;
+    width: 88%;
     border-radius: 10px;
   }
-  section.restaurant-menu .container .bankowy-menu a .button {
-    width: 80%;
+  section.restaurant-menu .container .bankowy-menu a img:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    z-index: 0;
+  }
+  section.restaurant-menu .container .bankowy-menu .button {
+    width: 50%;
     font-size: 1.5em;
     text-align: center;
     text-decoration: none;
@@ -651,34 +652,45 @@ section.restaurant-menu .container .zoli-menu .button:hover {
     padding: 0.6em 0;
     margin: 0.6em 0;
     background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    transform: translateY(5em);
   }
-  section.restaurant-menu .container .bankowy-menu a .button:hover {
+  section.restaurant-menu .container .bankowy-menu .button:hover {
     background-color: rgba(255, 123, 0, 0.5);
   }
-  section.restaurant-menu .container .zoli-menu a {
+  section.restaurant-menu .container .zoli-menu {
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    padding-bottom: 0.5em;
     text-decoration: none;
+    padding: 0;
   }
   section.restaurant-menu .container .zoli-menu a h2 {
     color: white;
     margin: 0;
+    padding-bottom: 1em;
     font-size: 2em;
     text-align: center;
   }
   section.restaurant-menu .container .zoli-menu a img {
-    margin: 0;
-    padding: 0 0 3em 0;
-    width: 80%;
+    transition-duration: 2s;
+    margin: 0 auto;
+    display: block;
+    padding: 0;
+    width: 100%;
     border-radius: 10px;
   }
-  section.restaurant-menu .container .zoli-menu a .button {
-    width: 80%;
+  section.restaurant-menu .container .zoli-menu a img:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    z-index: 0;
+  }
+  section.restaurant-menu .container .zoli-menu .button {
+    width: 50%;
     font-size: 1.5em;
     text-align: center;
     text-decoration: none;
@@ -687,8 +699,10 @@ section.restaurant-menu .container .zoli-menu .button:hover {
     padding: 0.6em 0;
     margin: 0.6em 0;
     background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    transform: translateY(5em);
   }
-  section.restaurant-menu .container .zoli-menu a .button:hover {
+  section.restaurant-menu .container .zoli-menu .button:hover {
     background-color: rgba(255, 123, 0, 0.5);
   }
 }
