@@ -104,7 +104,7 @@ header {
 .section-home {
 	width: 100vw;
 	height: 100vh;
-	background-image: url("img/one.jpg");
+	background-image: url("../img/one.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	opacity: 60%;
@@ -189,7 +189,7 @@ h1 {
 }
 
 section.about {
-	background-image: url("img/pexels-fwstudio-16400501.png");
+	background-image: url("../img/pexels-fwstudio-16400501.png");
 	background-color: black;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -341,7 +341,6 @@ section.restaurant-menu {
 		justify-content: center;
 		align-items: center;
 		text-shadow: 2px 2px black;
-		//transform: translateY(-3em);
 
 		.bankowy-menu {
 			width: 100%;
@@ -502,7 +501,7 @@ section.restaurant-menu {
 	.section-home {
 		width: 100vw;
 		height: 100vh;
-		background-image: url("img/one.jpg");
+		background-image: url("../img/one.jpg");
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -544,7 +543,7 @@ section.restaurant-menu {
 	}
 
 	section.about {
-		background-image: url("img/pexels-fwstudio-16400501.png");
+		background-image: url("../img/pexels-fwstudio-16400501.png");
 		background-color: black;
 		background-attachment: fixed;
 		background-position: center;

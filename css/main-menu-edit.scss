@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+
+.logo-home img {
+	position: fixed;
+	top: 1em;
+	left: 1em;
+	width: 10em;
+	visibility: visible;
+	z-index: 998;
+}
+
+.logo-home-desktop {
+	display: none;
+}
+
+.section-home {
+	width: 100vw;
+	height: 100vh;
+	background-image: url("../img/IMG_7322.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 30%;
+	filter: blur(0px) !important;
+}
+
+@media only screen and (min-width: 920px) {
+	.wrapper {
+		animation: circle 2s, pause-between-iterrations 4s;
+		animation-timing-function: ease-in-out;
+		background: rgba(255, 166, 0, 0);
+		clip-path: circle(1000%);
+	}
+
+	.logo-home img {
+		visibility: hidden;
+	}
+
+	.logo-home-desktop {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: auto;
+		height: 100vh;
+	}
+	.logo-home-desktop img {
+		-webkit-animation: scale-in-center 2s
+			cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+		animation: scale-in-center 2s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+			both;
+		background-color: transparent;
+		opacity: 100%;
+		z-index: 100;
+	}
+
+	.menu-test {
+		font-family: "Pangolin", cursive;
+		position: fixed;
+		top: 0;
+		left: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 90%;
+		height: 100vh;
+		color: white;
+
+		* {
+			box-sizing: border-box;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		/* Style the tab */
+		.tab {
+			float: right;
+			background-color: #f1f1f100;
+			width: 28%;
+			height: 70%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+
+		/* Style the buttons that are used to open the tab content */
+		.tab button {
+			font-family: "Dosis", sans-serif;
+			display: block;
+			background-color: rgba(0, 0, 0, 0);
+			color: rgb(255, 255, 255);
+			padding: 11px 8px;
+			width: 100%;
+			border: none;
+			outline: none;
+			text-align: right;
+			cursor: pointer;
+			transition: 0.3s;
+			font-size: 1em;
+			text-shadow: 2px 2px black;
+		}
+
+		/* Change background color of buttons on hover */
+		.tab button:hover {
+			color: burlywood;
+		}
+
+		/* Create an active/current "tab button" class */
+		.tab button.active {
+			font-size: 2em;
+			background-color: rgba(204, 204, 204, 0);
+			color: burlywood;
+		}
+
+		/* Style the tab content */
+		.tabcontent {
+			display: flex;
+			justify-content: flex-start;
+			flex-wrap: wrap;
+			align-items: flex-start;
+			align-content: flex-start;
+			background-color: hwb(0 100% 0% / 0.25);
+			padding: 12px 12px;
+			border-radius: 8px;
+			width: 100%;
+			height: auto;
+			min-height: 60%;
+
+			.danie {
+				background-color: rgba(0, 0, 0, 0.75);
+				border-radius: 8px;
+				font-family: "Pangolin", cursive;
+				font-size: 1em;
+				font-weight: 400;
+				width: 32%;
+				height: 6em;
+				display: flex;
+				flex-direction: column;
+				padding: 0.7em;
+				margin: 0.7em;
+				text-transform: uppercase;
+				justify-content: flex-start;
+
+				.pierwsza-linia {
+					width: 100%;
+					display: flex;
+					justify-content: space-between;
+					border-bottom: 1px solid white;
+					font-size: 14px;
+
+					.nazwa-dania {
+						i.fa-right-long {
+							padding: 0 8px;
+						}
+
+						.left-padding {
+							padding: 0 0 4px 8px;
+						}
+
+						.fa-seedling {
+							padding-left: 4px;
+						}
+					}
+					.cena-dania {
+					}
+				}
+
+				.druga-linia {
+					font-size: 12px;
+
+					.opis-dania {
+					}
+				}
+			}
+		}
+	}
+}
+
+@-webkit-keyframes scale-in-center {
+	0% {
+		-webkit-transform: scale(0);
+		transform: scale(0);
+		opacity: 1;
+	}
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		opacity: 0;
+	}
+}
+@keyframes scale-in-center {
+	0% {
+		-webkit-transform: scale(0);
+		transform: scale(0);
+		opacity: 1;
+	}
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		opacity: 0;
+	}
+}
+
+@keyframes circle {
+	0% {
+		clip-path: circle(0%);
+	}
+	30% {
+		clip-path: circle(0%);
+	}
+	100% {
+		clip-path: circle(100%);
+	}
+}
