@@ -63,7 +63,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		width: 90%;
+		width: 100vw;
 		height: 100vh;
 		color: white;
 
@@ -76,14 +76,13 @@
 
 		/* Style the tab */
 		.tab {
-			float: right;
+			float: left;
 			background-color: #f1f1f100;
-			width: 28%;
+			width: auto;
 			height: 70%;
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
-			align-items: center;
 		}
 
 		/* Style the buttons that are used to open the tab content */
@@ -92,8 +91,8 @@
 			display: block;
 			background-color: rgba(0, 0, 0, 0);
 			color: rgb(255, 255, 255);
-			padding: 11px 8px;
-			width: 100%;
+			padding: 11px 10px 11px 0px;
+			width: 250px;
 			border: none;
 			outline: none;
 			text-align: right;
@@ -120,14 +119,15 @@
 			display: flex;
 			justify-content: flex-start;
 			flex-wrap: wrap;
-			align-items: flex-start;
+			align-items: stretch;
 			align-content: flex-start;
+			flex-direction: column;
 			background-color: hwb(0 100% 0% / 0.25);
-			padding: 12px 12px;
+			padding: 8px 8px;
 			border-radius: 8px;
-			width: 100%;
-			height: auto;
-			min-height: 60%;
+			width: 70%;
+			//max-height: 28em;
+			height: 28em;
 
 			.danie {
 				background-color: rgba(0, 0, 0, 0.75);
@@ -136,11 +136,11 @@
 				font-size: 1em;
 				font-weight: 400;
 				width: 32%;
-				height: 6em;
+				min-height: auto;
 				display: flex;
 				flex-direction: column;
 				padding: 0.7em;
-				margin: 0.7em;
+				margin: 0.3em;
 				text-transform: uppercase;
 				justify-content: flex-start;
 
@@ -170,8 +170,25 @@
 
 				.druga-linia {
 					font-size: 12px;
+					width: 100%;
 
 					.opis-dania {
+						display: flex;
+						flex-direction: column;
+						justify-content: flex-start;
+						align-content: stretch;
+						float: left;
+
+						.choose-price {
+							width: 100%;
+							display: flex;
+							justify-content: space-between;
+							font-size: 11px;
+
+							.left-padding {
+								padding: 0 0 4px 8px;
+							}
+						}
 					}
 				}
 			}
