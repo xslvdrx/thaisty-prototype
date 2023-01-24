@@ -55,7 +55,7 @@
   .menu-test {
     font-family: "Pangolin", cursive;
     position: fixed;
-    top: 0;
+    top: 3em;
     left: 0;
     display: flex;
     justify-content: center;
@@ -68,6 +68,11 @@
     /* Change background color of buttons on hover */
     /* Create an active/current "tab button" class */
     /* Style the tab content */
+  }
+  .menu-test .menu-title {
+    font-family: "Dosis", sans-serif;
+    position: absolute;
+    top: 3em;
   }
   .menu-test * {
     box-sizing: border-box;
@@ -118,7 +123,7 @@
     padding: 8px 8px;
     border-radius: 8px;
     width: 70%;
-    height: 28em;
+    height: 25em;
   }
   .menu-test .tabcontent .danie {
     background-color: rgba(0, 0, 0, 0.75);
