@@ -4,6 +4,80 @@ html {
 	scroll-behavior: smooth;
 }
 
+
+
+/* Floating Social Media Bar Style Starts Here */
+
+.fl-fl {
+	font-family: "Dosis", sans-serif;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	text-align: right;
+	background: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	padding: 4px;
+	width: 190px;
+	position: fixed;
+	left: -150px;
+	z-index: 1000;
+	font: normal normal 10px "Dosis";
+	-webkit-transition: all 0.25s ease;
+	-moz-transition: all 0.25s ease;
+	-ms-transition: all 0.25s ease;
+	-o-transition: all 0.25s ease;
+	transition: all 0.25s ease;
+}
+
+.fa {
+	color: #fff !important;
+	padding: 10px 0;
+	width: 40px;
+	margin-right: 8px;
+}
+
+.fl-fl:hover {
+	left: 0;
+}
+
+.fl-fl a {
+	color: #fff !important;
+	text-decoration: none;
+	text-align: left;
+	line-height: 43px !important;
+	vertical-align: top !important;
+}
+
+.float-fb {
+	font-size: 0.8em;
+	top: 250px;
+}
+.fa-facebook:before {
+	font-size: 1.6em;
+}
+
+.float-gp {
+	font-size: 0.8em;
+	top: 305px;
+}
+
+.fa-google:before {
+	font-size: 1.6em;
+}
+
+.float-ig {
+	font-size: 0.8em;
+	top: 360px;
+}
+
+.fa-instagram:before {
+	font-size: 1.6em;
+}
+
+/* Floating Social Media Bar Style Ends Here */
+
 html::-webkit-scrollbar {
 	width: 0px; /* For Chrome, Safari, and Opera */
 }
@@ -124,6 +198,7 @@ header {
 		font-family: "Dosis", sans-serif;
 		background-color: rgba(0, 0, 0, 0.5);
 		border: 1px solid white;
+		border-radius: 8px;
 		color: white;
 		width: 80%;
 		height: auto;
@@ -152,6 +227,7 @@ header {
 		font-family: "Dosis", sans-serif;
 		background-color: rgba(0, 0, 0, 0.5);
 		border: 1px solid white;
+		border-radius: 8px;
 		color: white;
 		width: 80%;
 		height: auto;
@@ -166,6 +242,85 @@ header {
 
 .reservation-btn .button:hover {
 	background-color: rgba(255, 123, 0, 0.5);
+}
+
+.copyright {
+	color: rgba(255, 255, 255, 0.6);
+	font-family: "Dosis", sans-serif;
+	position: fixed;
+	left: 10px;
+	bottom: -5px;
+	font-size: 0.8em;
+}
+
+.scroll-test {
+	position: relative;
+	bottom: 6em;
+}
+.scroll-test::after {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	content: "";
+	background: -webkit-linear-gradient(
+		top,
+		rgba(0, 0, 0, 0) 0,
+		rgba(0, 0, 0, 0.8) 80%,
+		rgba(0, 0, 0, 0.8) 100%
+	);
+	background: linear-gradient(
+		to bottom,
+		rgba(0, 0, 0, 0) 0,
+		rgba(0, 0, 0, 0.8) 80%,
+		rgba(0, 0, 0, 0.8) 100%
+	);
+}
+
+#section06 a {
+	padding-top: 70px;
+}
+#section06 a span {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 32px;
+	height: 32px;
+	margin-left: -12px;
+	border-left: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	-webkit-transform: rotateZ(-45deg);
+	transform: rotateZ(-45deg);
+	-webkit-animation: sdb06 1.5s infinite;
+	animation: sdb06 1.5s infinite;
+	box-sizing: border-box;
+}
+
+//BACK TO TOP//
+#myBtn {
+	transform: rotate(-90deg);
+	display: none;
+	text-align: center;
+	position: fixed;
+	bottom: 50px;
+	right: -20px;
+	z-index: 999;
+	font-size: 15px;
+	border: 2px solid #fff;
+	outline: none;
+	background-color: rgba(255, 0, 0, 0);
+	color: white;
+	cursor: pointer;
+	padding: 0px;
+	padding-left: 15px;
+	border-radius: 40px;
+	transform: rotateX("90deg");
+	transition: 0.5s;
+	opacity: 0.6;
+}
+
+#myBtn:hover {
+	bottom: 60px;
+	opacity: 1;
 }
 
 .logo-home img {
@@ -304,6 +459,7 @@ section.restaurant-menu {
 	height: 100vh;
 	z-index: 99;
 	overflow-y: auto;
+	opacity: 1;
 
 	.button {
 		width: 80%;
@@ -312,6 +468,7 @@ section.restaurant-menu {
 		text-decoration: none;
 		color: white;
 		border: 1px solid white;
+		border-radius: 7px;
 		padding: 0.6em 0;
 		margin: 0.6em 0;
 		background-color: rgba(0, 0, 0, 0.5);
@@ -395,6 +552,82 @@ section.restaurant-menu {
 					width: 80%;
 					border-radius: 10px;
 				}
+			}
+		}
+	}
+}
+
+section.location {
+	background-image: url("../img/24900042_720909621434949_6868604822666008759_n.jpg");
+	background-color: black;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+
+	.container {
+		position: relative;
+		top: 1.8em;
+		width: 75%;
+		height: 70%;
+	}
+}
+
+section.contact {
+	background-image: url("../img/315786811_171857918857166_6173849357325361609_n.jpg");
+	background-color: black;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+
+	.container {
+		position: relative;
+		top: 1.8em;
+		width: 75%;
+		height: 80%;
+		background-color: rgba(0, 0, 0, 0.8);
+		-webkit-box-shadow: 0px 0px 100px 71px rgb(0, 0, 0);
+		-moz-box-shadow: 0px 0px 100px 71px rgb(0, 0, 0);
+		box-shadow: 0px 0px 80px 700px rgba(0, 0, 0, 0.5);
+		border-radius: 8px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-evenly;
+
+		.contact {
+			text-align: center;
+			font-family: "Pangolin", cursive;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: flex-start;
+			width: 90%;
+			border-left: none;
+
+			h2 {
+				padding: 0;
+			}
+
+			p {
+				padding: 0;
+				margin: 10px;
+				font-size: 1em;
 			}
 		}
 	}
@@ -541,6 +774,87 @@ section.restaurant-menu {
 
 	.reservation-btn {
 		display: none;
+	}
+
+	//SCROLL TEST//
+
+	.scroll-test {
+		position: relative;
+		bottom: 6em;
+	}
+	.scroll-test::after {
+		position: relative;
+		bottom: 0;
+		left: 0;
+		content: "";
+		background: -webkit-linear-gradient(
+			top,
+			rgba(0, 0, 0, 0) 0,
+			rgba(0, 0, 0, 0.8) 80%,
+			rgba(0, 0, 0, 0.8) 100%
+		);
+		background: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0) 0,
+			rgba(0, 0, 0, 0.8) 80%,
+			rgba(0, 0, 0, 0.8) 100%
+		);
+	}
+
+	#section06 a {
+		padding-top: 70px;
+	}
+	#section06 a span {
+		position: absolute;
+		top: 0;
+		left: 50%;
+		width: 32px;
+		height: 32px;
+		margin-left: -12px;
+		border-left: 2px solid #fff;
+		border-bottom: 2px solid #fff;
+		-webkit-transform: rotateZ(-45deg);
+		transform: rotateZ(-45deg);
+		-webkit-animation: sdb06 1.5s infinite;
+		animation: sdb06 1.5s infinite;
+		box-sizing: border-box;
+	}
+
+	//BACK TO TOP//
+	#myBtn {
+		transform: rotate(-90deg);
+		display: none;
+		text-align: center;
+		position: fixed;
+		bottom: 50px;
+		right: -20px;
+		z-index: 999;
+		font-size: 15px;
+		border: 2px solid #fff;
+		outline: none;
+		background-color: rgba(255, 0, 0, 0);
+		color: white;
+		cursor: pointer;
+		padding: 0px;
+		padding-left: 15px;
+		border-radius: 40px;
+		transform: rotateX("90deg");
+		transition: 0.5s;
+		opacity: 0.6;
+	}
+
+	#myBtn:hover {
+		bottom: 60px;
+		opacity: 1;
+	}
+
+	.copyright {
+		color: rgba(255, 255, 255, 0.6);
+		font-family: "Dosis", sans-serif;
+		position: fixed;
+		left: 10px;
+		bottom: -5px;
+		font-size: 0.8em;
 	}
 
 	section.about {
@@ -842,6 +1156,7 @@ section.restaurant-menu {
 			display: flex;
 			align-items: center;
 			justify-content: space-evenly;
+			flex-direction: row;
 
 			.contact {
 				font-family: "Pangolin", cursive;
@@ -905,5 +1220,33 @@ section.restaurant-menu {
 	}
 	100% {
 		clip-path: circle(100%);
+	}
+}
+
+@-webkit-keyframes sdb06 {
+	0% {
+		-webkit-transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		-webkit-transform: rotateY(720deg) rotateZ(-45deg)
+			translate(-20px, 20px);
+		opacity: 0;
+	}
+}
+@keyframes sdb06 {
+	0% {
+		transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+		opacity: 0;
 	}
 }
