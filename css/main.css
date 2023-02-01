@@ -162,7 +162,7 @@ header svg {
 .section-home {
   width: 100vw;
   height: 100vh;
-  background-image: url("../img/one.jpg");
+  background-image: url("img/one.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 60%;
@@ -316,7 +316,7 @@ h1 {
 }
 
 section.about {
-  background-image: url("../img/pexels-fwstudio-16400501.png");
+  background-image: url("img/pexels-fwstudio-16400501.png");
   background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
@@ -409,7 +409,7 @@ section.about .container-b .desc p {
 }
 
 section.restaurant-menu {
-  background-image: url("../img/pexels-fwstudio-16400501.png");
+  background-image: url("img/pexels-fwstudio-16400501.png");
   background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
@@ -511,7 +511,7 @@ section.restaurant-menu .container .zoli-menu a img {
 }
 
 section.location {
-  background-image: url("../img/24900042_720909621434949_6868604822666008759_n.jpg");
+  background-image: url("img/24900042_720909621434949_6868604822666008759_n.jpg");
   background-color: black;
   background-attachment: fixed;
   background-position: center;
@@ -533,7 +533,7 @@ section.location .container {
 }
 
 section.contact {
-  background-image: url("../img/315786811_171857918857166_6173849357325361609_n.jpg");
+  background-image: url("img/315786811_171857918857166_6173849357325361609_n.jpg");
   background-color: black;
   background-attachment: fixed;
   background-position: center;
@@ -662,7 +662,7 @@ section.contact .container .contact p {
   .section-home {
     width: 100vw;
     height: 100vh;
-    background-image: url("../img/one.jpg");
+    background-image: url("img/one.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -758,7 +758,7 @@ section.contact .container .contact p {
     font-size: 0.8em;
   }
   section.about {
-    background-image: url("../img/pexels-fwstudio-16400501.png");
+    background-image: url("img/pexels-fwstudio-16400501.png");
     background-color: black;
     background-attachment: fixed;
     background-position: center;
@@ -848,7 +848,7 @@ section.contact .container .contact p {
     padding-top: 0;
   }
   section.restaurant-menu {
-    background-image: url("../img/pexels-fwstudio-16400501.png");
+    background-image: url("img/pexels-fwstudio-16400501.png");
     background-color: black;
     background-attachment: fixed;
     background-position: center;
@@ -974,7 +974,7 @@ section.contact .container .contact p {
     background-color: rgba(255, 123, 0, 0.5);
   }
   section.location {
-    background-image: url("../img/24900042_720909621434949_6868604822666008759_n.jpg");
+    background-image: url("img/24900042_720909621434949_6868604822666008759_n.jpg");
     background-color: black;
     background-attachment: fixed;
     background-position: center;
@@ -995,7 +995,7 @@ section.contact .container .contact p {
     height: 70%;
   }
   section.contact {
-    background-image: url("../img/315786811_171857918857166_6173849357325361609_n.jpg");
+    background-image: url("img/315786811_171857918857166_6173849357325361609_n.jpg");
     background-color: black;
     background-attachment: fixed;
     background-position: center;
